@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ENGINEERING STUFF</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="appquotes">Science is about Knowing, Engineering is about Doing </string>
+    <string name="version">Version 1.0.21</string>
+    <string name="enable_dark_mode">Enable Dark Mode</string>
+
+
+    <string name="about_para">
+        The Best creator next to God is an Engineer.
+        ENGINEERING STUFF
+        Engineering Stuff is an Educational app for Engineering Students. This app offers study materials for the benefit of students.\n \n
+        \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDEPARTMENT \n \n
+        * Electrical and Electronics Engineering\n
+        * Mechanical Engineering\n
+        * Computer Science and Engineering\n
+        * Electronics and communication Engineering\n
+        * Civil Engineering\n\n
+        Under these departments it lists all the semester, under each semester it will list all the subjects, under each subject it shows all the materials for studying.\n\n
+        ENGINEERING STUFF MENU
+        Engineering stuff menu show the menu tree, annotated with the module that implement the corresponding function. Top level items and most submenu items are defined in main menu.
+
+
+
+
+
+    </string>
+
+    <string name="title_no_location_dialog">Cannot find location</string>
+    <string name="subtitle_no_location_dialog">No location has been provied. Try again</string>
+    <string name="understood_label">Available in upcoming updates </string>
+</resources>

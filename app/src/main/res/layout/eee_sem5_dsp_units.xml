@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colourbackground_eee"
+    tools:context=".eee_sem5_dsp_units">
+
+
+
+    /polygon
+
+    <ImageView
+        android:id="@+id/polygon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/anna_university_sullabus"
+        android:layout_alignTop="@+id/sub_code"
+        android:layout_alignEnd="@+id/anna_university_sullabus"
+        android:layout_alignBottom="@+id/eee_sub"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginStart="-70dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginEnd="-70dp"
+        android:layout_marginBottom="-70dp"
+        android:background="?attr/colourpolygon_eee_polygon" />
+
+    <TextView
+        android:id="@+id/sub_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="EE8591"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="?attr/colortextalter"
+        android:textSize="26dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/sub_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:textStyle="bold"
+        android:text="Digital Signal Processing"
+        android:textAlignment="center"
+        android:paddingHorizontal="30dp"
+        android:textColor="?attr/colortextalter"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/anna_university_sullabus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true"
+        android:text="Anna University Syllabus"
+        android:textAlignment="center"
+        android:textColor="?attr/colortextalter"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/regulation_2k17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Regulation 2k17"
+        android:textAlignment="center"
+        android:textColor="?attr/colortextalter"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/eee_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:paddingHorizontal="50dp"
+        android:textStyle="bold"
+        android:text="Electrical And Electronics \nEngineering"
+        android:textAlignment="center"
+        android:textColor="?attr/colortextalter"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/important_qns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/polygon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:text="Materials"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/polygon"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="100dp"
+        android:fadingEdgeLength="75dp"
+        android:requiresFadingEdge="vertical"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <Button
+                android:id="@+id/_2_marks"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/whiteshape"
+                android:drawableRight="@drawable/download"
+                android:paddingHorizontal="30dp"
+                android:text="2 marks"
+                android:textAlignment="textStart"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/notes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/whiteshape"
+                android:drawableRight="@drawable/download"
+                android:paddingHorizontal="30dp"
+                android:text="Notes"
+                android:textAlignment="textStart"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/whiteshape"
+                android:drawableRight="@drawable/download"
+                android:paddingHorizontal="30dp"
+                android:text="PREVIOUS YEAR QUESTION PAPERS"
+                android:textAlignment="textStart"
+                android:textSize="14dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

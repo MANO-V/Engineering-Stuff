@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".civil_sem1_list">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="0sp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="Semester 1 "
+        android:textColor="?attr/colortextalter"
+        android:textSize="25sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="0sp"
+        android:layout_marginTop="40sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:requiresFadingEdge="vertical"
+            android:fadingEdgeLength="75sp">
+
+            / eng1
+
+            <FrameLayout
+                android:id="@+id/civil_sem1_eng1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15sp"
+                    android:layout_marginLeft="25sp"
+
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="5sp"
+                    android:text="HS8151"
+                    android:textColor="?attr/colortextalter"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/civil_sem1_eng1_1"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="25sp"
+                    android:layout_marginRight="30sp"
+                    android:background="@drawable/arrow_icon" />
+
+                <TextView
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginTop="40sp"
+            
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="5sp"
+                    android:text="CommunicativeEnglish"
+                    android:textColor="?attr/colortextgray"
+                    android:textSize="16sp"
+                    />
+
+                />
+
+            </FrameLayout>
+
+            / chy1
+
+            <FrameLayout
+                android:id="@+id/civil_sem1_chy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15sp"
+                    android:layout_marginLeft="25sp"
+
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="5sp"
+                    android:text="CY8151"
+                    android:textColor="?attr/colortextalter"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginTop="40sp"
+            
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="5sp"
+                    android:text="Engineering Chemistry"
+                    android:textColor="?attr/colortextgray"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/civil_sem1_chy_1"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="25sp"
+                    android:layout_marginRight="30sp"
+                    android:background="@drawable/arrow_icon" />
+
+            </FrameLayout>
+
+            / pspp
+
+            <FrameLayout
+                android:id="@+id/civil_sem1_pspp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15sp"
+                    android:layout_marginLeft="25sp"
+
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="5sp"
+                    android:text="GE8151"
+                    android:textColor="?attr/colortextalter"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginTop="40sp"
+            
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="5sp"
+                    android:text="Problem Solving and Python Programing"
+                    android:textColor="?attr/colortextgray"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/civil_sem1_pspp_1"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="25sp"
+                    android:layout_marginRight="30sp"
+                    android:background="@drawable/arrow_icon" />
+
+            </FrameLayout>
+
+
+            / m1
+
+            <FrameLayout
+                android:id="@+id/civil_sem1_m1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15sp"
+                    android:layout_marginLeft="25sp"
+
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="5sp"
+                    android:text="MA8151"
+                    android:textColor="?attr/colortextalter"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginTop="40sp"
+            
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="5sp"
+                    android:text="EngineeringMathematics1"
+                    android:textColor="?attr/colortextgray"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/civil_sem1_m1_1"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="25sp"
+                    android:layout_marginRight="30sp"
+                    android:background="@drawable/arrow_icon" />
+
+            </FrameLayout>
+
+            / eg
+
+            <FrameLayout
+                android:id="@+id/civil_sem1_eg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15sp"
+                    android:layout_marginLeft="25sp"
+
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="5sp"
+                    android:text="GE8152"
+                    android:textColor="?attr/colortextalter"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginTop="40sp"
+            
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="5sp"
+                    android:text="Engineering Graphics"
+                    android:textColor="?attr/colortextgray"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/civil_sem1_eg_1"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="25sp"
+                    android:layout_marginRight="30sp"
+                    android:background="@drawable/arrow_icon" />
+
+            </FrameLayout>
+
+            / phy1
+
+            <FrameLayout
+                android:id="@+id/civil_sem1_phy1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15sp"
+                    android:layout_marginLeft="25sp"
+
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="5sp"
+                    android:text="PH8151"
+                    android:textColor="?attr/colortextalter"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginTop="40sp"
+                    android:layout_marginBottom="30sp"
+            
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="5sp"
+                    android:text="Engineering Physics"
+                    android:textColor="?attr/colortextgray"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/civil_sem1_phy1_1"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="25sp"
+                    android:layout_marginRight="30sp"
+                    android:background="@drawable/arrow_icon" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

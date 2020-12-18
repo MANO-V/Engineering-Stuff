@@ -1,0 +1,151 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000</item>
+        <item name="colorPrimaryDark">#000</item>
+        <item name="colorAccent">#000</item>
+
+        /-->  text
+        <item name="colorblacktext">#100B0B</item>
+        <item name="colorwhitetext">#fff</item>
+        <item name="colortextgray">#616161</item>
+        <item name="colortextalter">#100B0B</item>  // lyt #fff / dark #000
+
+        /--> background
+        <item name="colorwhitebackground">#fff</item>  // lyt #fff / dark #000
+        <item name="color_always_white">#fff</item>
+
+
+        /--> navigation top
+        <item name="colournavigation_main">#e98e35</item> // lyt #e98e35 / dark #131514
+        <item name="colournav_eee">#e98e35</item> // lyt #e98e35 / dark #131514
+        <item name="colournav_mech">#35B8E9</item> // lyt #e98e35 / dark #131514
+        <item name="colournav_cse">#fe683a</item> // lyt #e98e35 / dark #131514
+        <item name="colournav_ece">#765DD2</item> // lyt #e98e35 / dark #131514
+        <item name="colournav_civil">#35B8E9</item> // lyt #e98e35 / dark #131514
+
+
+        <item name="colourbackground_eee">#e98e35</item> // lyt #e98e35 / dark #131514
+        <item name="colourbackground_mech">#3CA0C5</item> // lyt #e98e35 / dark #131514
+        <item name="colourbackground_cse">#fe683a</item> // lyt #e98e35 / dark #131514
+        <item name="colourbackground_ece">#765DD2</item> // lyt #e98e35 / dark #131514
+        <item name="colourbackground_civil">#35B8E9</item> // lyt #e98e35 / dark #131514
+
+        // eee
+        <item name="eee_semshapestartColor">#FF6E40</item> // lyt #FF6E40 / dark #131514
+        <item name="eee_semshapeendColor">#FFAB40</item>  /// lyt #FFAB40 / dark #131514
+
+
+        // mech_civil
+        <item name="mech_semshapestartColor">#2A2A95</item> // lyt #2A2A95 / dark #131514
+        <item name="mech_semshapeendColor">#4099FF</item>  /// lyt #4099FF / dark #131514
+
+        // cse
+        <item name="cse_semshapestartColor">#fe683a</item> // lyt #FF0E9F / dark #131514
+        <item name="cse_semshapeendColor">#fdc689</item>  /// lyt #F34862 / dark #131514
+
+        // ece
+        <item name="ece_semshapestartColor">#5C35EE</item> // lyt #FF6E40 / dark #131514
+        <item name="ece_semshapeendColor">#765DD2</item>  /// lyt #FFAB40 / dark #131514
+
+
+        // civil
+        <item name="civil_semshapestartColor">#2A2A95</item> // lyt #2A2A95 / dark #131514
+        <item name="civil_semshapeendColor">#4099FF</item>  /// lyt #4099FF / dark #131514
+
+
+        <item name="colourpolygon_eee_polygon">@drawable/polydon_shape</item>
+        <item name="colourpolygon_mech_polygon">@drawable/polydon_shape</item>
+        <item name="colourpolygon_cse_polygon">@drawable/polydon_shape</item>
+        <item name="colourpolygon_ece_polygon">@drawable/polydon_shape</item>
+
+        <item name="shape_rectangle_dept">@drawable/rectangle_lines</item>
+
+        //---> icons
+
+        <item name="home">@drawable/ic_home_black_24dp</item>
+        <item name="about">@drawable/ic_about_black_24dp</item>
+        <item name="info">@drawable/ic_info_black_24dp</item>
+        <item name="darkmode">@drawable/ic_darkmode_black_24dp</item>
+        <item name="share">@drawable/ic_share_black_24dp</item>
+        <item name="youtube">@drawable/ic_youtube_black_24dp</item>
+        <item name="exit">@drawable/ic_exit_to_app_black_24dp</item>
+
+        <item name="ic_launcher_background">#FFFFFF</item>
+
+    </style>
+
+
+
+    <style name="darktheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000</item>
+        <item name="colorPrimaryDark">#000</item>
+        <item name="colorAccent">#000</item>
+        /-->  text
+        <item name="colorblacktext">#100B0B</item>
+        <item name="colorwhitetext">#fff</item>
+        <item name="colortextgray">#616161</item>
+        <item name="colortextalter">#fff</item>
+
+        /--> background
+        <item name="colorwhitebackground">#282828</item>
+        <item name="color_always_white">#fff</item>
+
+        /--> navigation top
+        <item name="colournavigation_main">#4c4c4c</item>
+        <item name="colournav_eee">#C1C1C1</item>
+        <item name="colournav_mech">#C1C1C1</item>
+        <item name="colournav_cse">#4C4C4C</item>
+        <item name="colournav_ece">#C1C1C1</item>
+        <item name="colournav_civil">#C1C1C1</item>
+
+        /--> background
+        <item name="colourbackground_eee">#282828</item>
+        <item name="colourbackground_mech">#282828</item>
+        <item name="colourbackground_cse">#282828</item>
+        <item name="colourbackground_ece">#282828</item>
+        <item name="colourbackground_civil">#282828</item>
+        // eee
+        <item name="eee_semshapestartColor">#FF6E40</item>
+        <item name="eee_semshapeendColor">#FFAB40</item>
+
+
+        // mech_civil
+        <item name="mech_semshapestartColor">#2A2A95</item>
+        <item name="mech_semshapeendColor">#4099FF</item>
+        // cse
+        <item name="cse_semshapestartColor">#fe683a</item>
+        <item name="cse_semshapeendColor">#fdc689</item>
+
+        // ece
+        <item name="ece_semshapestartColor">#5C35EE</item>
+        <item name="ece_semshapeendColor">#765DD2</item>
+
+        <item name="colourpolygon_eee_polygon">@drawable/eee_polygon</item>
+        <item name="colourpolygon_mech_polygon">@drawable/mech_polygon</item>
+        <item name="colourpolygon_cse_polygon">@drawable/cse_polygon</item>
+        <item name="colourpolygon_ece_polygon">@drawable/ece_polygon</item>
+
+        <item name="shape_rectangle_dept">@drawable/rectangle_lines_dark</item>
+
+        //---> icons
+
+        <item name="home">@drawable/ic_home_white_24dp</item>
+        <item name="about">@drawable/ic_about_white_24dp</item>
+        <item name="info">@drawable/ic_info_white_24dp</item>
+        <item name="darkmode">@drawable/ic_darkmode_white_24dp</item>
+        <item name="share">@drawable/ic_share_white_24dp</item>
+        <item name="youtube">@drawable/ic_youtube_white_24dp</item>
+        <item name="exit">@drawable/ic_exit_to_app_white_24dp</item>
+
+        <item name="ic_launcher_background">#FFFFFF</item>
+
+    </style>
+
+
+
+
+</resources>

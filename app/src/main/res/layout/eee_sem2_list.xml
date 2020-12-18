@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eee_sem2_list">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:text="Semester 2"
+        android:textColor="?attr/colortextalter"
+        android:textSize="25dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="0dp"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="50dp">
+
+
+            <FrameLayout
+                android:id="@+id/eee_sem2_evs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GE8291"
+                    android:textSize="18dp"
+
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="?attr/colortextalter"
+                    android:textStyle="bold"
+                    android:layout_marginVertical="15dp" />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Enviromental Science and Engineering"
+                    android:textSize="16dp"
+
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="?attr/colortextgray"
+                    android:layout_marginTop="40dp" />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/arrow_icon" />
+
+            </FrameLayout>
+
+            / ct
+            <FrameLayout
+                android:id="@+id/eee_sem2_ct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EE8251"
+                    android:textSize="18dp"
+            
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="?attr/colortextalter"
+                    android:textStyle="bold"
+                    android:layout_marginVertical="15dp" />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Circuit Theory"
+                    android:textSize="16dp"
+            
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="?attr/colortextgray"
+                    android:layout_marginTop="40dp" />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/arrow_icon" />
+
+            </FrameLayout>
+
+            / m2
+            <FrameLayout
+                android:id="@+id/eee_sem2_m2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MA8251"
+                    android:textSize="18dp"
+            
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="?attr/colortextalter"
+                    android:textStyle="bold"
+                    android:layout_marginVertical="15dp" />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+            
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="5dp"
+                    android:text="Engineering Mathematics II"
+                    android:textColor="?attr/colortextgray"
+                    android:textSize="16dp" />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/arrow_icon" />
+
+            </FrameLayout>
+
+            / phy2
+            <FrameLayout
+                android:id="@+id/eee_sem2_phy2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PH8253"
+                    android:textSize="18dp"
+            
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="?attr/colortextalter"
+                    android:textStyle="bold"
+                    android:layout_marginVertical="15dp" />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Physics for Electronics Engineering"
+                    android:textSize="16dp"
+            
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="?attr/colortextgray"
+                    android:layout_marginTop="40dp" />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/arrow_icon" />
+
+            </FrameLayout>
+
+            / eng2
+            <FrameLayout
+                android:id="@+id/eee_sem2_te"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HS8251"
+                    android:textSize="18dp"
+            
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="?attr/colortextalter"
+                    android:textStyle="bold"
+                    android:layout_marginVertical="15dp" />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Technical English"
+                    android:textSize="16dp"
+            
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="?attr/colortextgray"
+                    android:layout_marginTop="40dp" />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/arrow_icon" />
+
+            </FrameLayout>
+
+            / bcm
+            <FrameLayout
+                android:id="@+id/eee_sem2_bcm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BE8252"
+                    android:textSize="18dp"
+            
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="?attr/colortextalter"
+                    android:textStyle="bold"
+                    android:layout_marginVertical="15dp" />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Basic Civil and Mechanical Engineering"
+                    android:textSize="16dp"
+            
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="?attr/colortextgray"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="30dp"/>
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/arrow_icon" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

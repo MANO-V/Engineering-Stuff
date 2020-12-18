@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds" >
+    /-->  text
+    <attr name="colorblacktext" format="color" />
+    <attr name="colorwhitetext" format="color" />
+    <attr name="colortextgray" format="color" />
+    <attr name="colortextalter" format="color" />
+
+    /--> background
+    <attr name="colorwhitebackground" format="color" />
+    <attr name="color_always_white" format="color" />
+
+    /--> navigation top
+    <attr name="colournavigation_main" format="color" />
+    <attr name="colournav_eee" format="color" />
+    <attr name="colournav_mech" format="color" />
+    <attr name="colournav_cse" format="color" />
+    <attr name="colournav_ece" format="color" />
+    <attr name="colournav_civil" format="color" />
+
+    /--> background
+    <attr name="colourbackground_eee" format="color" />
+    <attr name="colourbackground_mech" format="color" />
+    <attr name="colourbackground_cse" format="color" />
+    <attr name="colourbackground_ece" format="color" />
+    <attr name="colourbackground_civil" format="color" />
+
+    // eee
+    <attr name="eee_semshapestartColor" format="color" />
+    <attr name="eee_semshapeendColor" format="color" />
+
+
+    // mech_civil
+    <attr name="mech_semshapestartColor" format="color" />
+    <attr name="mech_semshapeendColor" format="color" />
+
+    // cse
+    <attr name="cse_semshapestartColor" format="color" />
+    <attr name="cse_semshapeendColor" format="color" />
+
+    // ece
+    <attr name="ece_semshapestartColor" format="color" />
+    <attr name="ece_semshapeendColor" format="color" />
+
+    <attr name="civil_semshapestartColor" format="color" />
+    <attr name="civil_semshapeendColor" format="color" />
+        
+        
+        <attr name="colourpolygon_eee_polygon" format="color"/>
+        <attr name="colourpolygon_mech_polygon" format="color" />
+        <attr name="colourpolygon_cse_polygon" format="color"/>
+        <attr name="colourpolygon_ece_polygon" format="color"/>
+
+        <attr name="shape_rectangle_dept" format="color"/>
+
+        //---> icons
+
+        <attr name="home" format="color"/>
+        <attr name="about" format="color"/>
+        <attr name="info" format="color"/>
+        <attr name="darkmode" format="color"/>
+        <attr name="share" format="color"/>
+        <attr name="youtube" format="color"/>
+        <attr name="exit" format="color"/>
+
+        <attr name="ic_launcher_background" format="color"/>
+    </declare-styleable>
+</resources>

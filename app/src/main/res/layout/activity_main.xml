@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    tools:openDrawer="start">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_container1">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="38sp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:elevation="10dp" />
+
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="?attr/colorwhitebackground">
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="360dp"
+               android:layout_alignParentTop="true"
+               android:background="?attr/shape_rectangle_dept"/>
+
+           <TextView
+               android:id="@+id/appname"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="20sp"
+               android:layout_marginTop="80dp"
+               android:text="@string/app_name"
+               android:textAllCaps="true"
+               android:textColor="?attr/colorwhitetext"
+               android:textSize="30sp"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20sp"
+               android:layout_alignTop="@+id/appname"
+               android:layout_marginTop="35sp"
+               android:text="@string/appquotes"
+               android:textAllCaps="true"
+               android:textColor="?attr/colorwhitetext"
+               android:textSize="12sp" />
+
+
+
+           <TextView
+               android:id="@+id/course"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20sp"
+               android:layout_marginTop="180sp"
+               android:textStyle="bold"
+               android:text="Courses"
+               android:textColor="?attr/colorwhitetext"
+               android:textSize="32sp" />
+
+           <Button
+               android:id="@+id/contact_us"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="15dp"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="0dp"
+               android:layout_marginTop="150dp"
+               android:paddingHorizontal="30dp"
+               android:background="@drawable/leftcornerwhite"
+               android:drawableLeft="@drawable/ic_contact_us"
+               android:elevation="10dp"
+               android:textStyle="bold"
+               android:text="  Contact Us"
+               android:textColor="?attr/colorblacktext" />
+
+           <ScrollView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:scrollIndicators="none"
+               android:scrollbars="none"
+               android:layout_marginTop="250sp"
+               android:requiresFadingEdge="vertical"
+               android:fadingEdgeLength="75sp">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_gravity="center_horizontal">
+
+                   /eee
+
+                   <Button
+                       android:id="@+id/eeebtn"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="40dp"
+                       android:layout_marginBottom="10dp"
+                       android:transitionName="eee_trans"
+                       android:background="@drawable/eee"
+                       android:elevation="30dp" />
+
+                   /mech
+
+                   <Button
+                       android:id="@+id/mechbtn"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginVertical="10dp"
+                       android:background="@drawable/mech"
+                       android:elevation="30dp" />
+
+                   /cse
+
+                   <Button
+                       android:id="@+id/csebtn"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginVertical="10dp"
+                       android:background="@drawable/cse"
+                       android:elevation="30dp" />
+
+
+                   /ece
+
+                   <Button
+                       android:id="@+id/ecebtn"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginVertical="10dp"
+                       android:background="@drawable/ece"
+                       android:elevation="30dp" />
+
+
+                   /civil
+
+                   <Button
+                       android:id="@+id/civilbtn"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:layout_marginBottom="50dp"
+                       android:background="@drawable/civil"
+                       android:elevation="30dp" />
+
+               </LinearLayout>
+
+
+           </ScrollView>
+       </RelativeLayout>
+    </FrameLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_menu"
+        app:itemTextColor="?attr/colortextalter"
+        android:background="?attr/colorwhitebackground">
+
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+

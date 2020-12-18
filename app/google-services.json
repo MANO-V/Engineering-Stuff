@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "435385858384",
+    "firebase_url": "https://engineering-stuff.firebaseio.com",
+    "project_id": "engineering-stuff",
+    "storage_bucket": "engineering-stuff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435385858384:android:87df117abc6c34448cd455",
+        "android_client_info": {
+          "package_name": "com.mv.engineeringstuff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435385858384-6meeaild4qn3u9arjbvao57h0uqgpaq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mv.engineeringstuff",
+            "certificate_hash": "e776051d874d2738a7c0099ee56950f47c2b8e2e"
+          }
+        },
+        {
+          "client_id": "435385858384-gamn144r9bms0n7a2m3i88nckr5kr3kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBro3JQcRIQsCc9uXCWvrl7SBJZdVm7j84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435385858384-gamn144r9bms0n7a2m3i88nckr5kr3kr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+<group android:checkableBehavior="single">
+
+    <item android:title="General">
+        <menu>
+            <item android:id="@+id/home"
+                android:title="Home"
+                android:icon="@drawable/ic_home_black_24dp"/>
+
+
+            <item
+                android:id="@+id/dark_mode"
+                android:title="Theme"
+                android:icon="@drawable/ic_darkmode_black_24dp">
+
+            </item>
+
+            <item
+                android:id="@+id/contact_us"
+                android:title="Contact Us"
+                android:icon="@drawable/ic_contact_us">
+
+            </item>
+
+            <item android:id="@+id/about"
+                android:title="About"
+                android:icon="@drawable/ic_about"/>
+            <item
+                android:title="App info"
+                android:id="@+id/app_info"
+                android:icon="@drawable/ic_info_black_24dp">
+            </item>
+
+        </menu>
+    </item>
+</group>
+
+
+
+
+    <item android:title="Other Services">
+        <menu>
+            <item android:id="@+id/share"
+                android:title="Share App"
+                android:icon="@drawable/ic_share_black_24dp"/>
+            <item android:id="@+id/youtube_link"
+                android:title="Scrap Tech Youtube Videos"
+                android:icon="@drawable/ic_youtube_black_24dp"/>
+
+        </menu>
+
+    </item>
+
+
+    <item
+        android:title="Exit"
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_exit_to_app_black_24dp">
+
+    </item>
+
+
+
+</menu>

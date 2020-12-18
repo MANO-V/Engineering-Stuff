@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colourbackground_civil"
+    tools:context=".cse_sem1_chy_units">
+
+
+    /polygon
+    <ImageView
+        android:id="@+id/polygon"
+        android:layout_width="400dp"
+        android:layout_height="360dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="32dp"
+        android:background="?attr/colourpolygon_eee_polygon"/>
+    <TextView
+        android:id="@+id/sub_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="cy8151"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="?attr/colortextalter"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/sub_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="Engineering Chemistry"
+        android:textAlignment="center"
+        android:paddingHorizontal="30dp"
+        android:textColor="?attr/colortextalter"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/anna_university_sullabus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+
+        android:text="Anna University Syllabus"
+        android:textAlignment="center"
+        android:textColor="?attr/colortextalter"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/regulation_2k17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+
+        android:text="Regulation 2k17"
+        android:textAlignment="center"
+        android:textColor="?attr/colortextalter"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/eee_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:paddingHorizontal="50dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="Civil Engineering"
+        android:textAlignment="center"
+        android:textColor="?attr/colortextalter"
+        android:textSize="18dp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="Important Questions"
+        android:textSize="25dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:layout_marginLeft="20dp"
+        android:textColor="?attr/colorwhitetext" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="435dp"
+
+        android:text="2 Marks and 16 Marks"
+        android:textColor="?attr/colorwhitetext"
+        android:textSize="16dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="470dp"
+        android:layout_marginHorizontal="30dp"
+        android:scrollbars="none"
+        android:requiresFadingEdge="vertical"
+        android:fadingEdgeLength="75dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/chy_unit1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/whiteshape"
+                android:drawableRight="@drawable/download"
+                android:paddingHorizontal="30dp"
+                android:text="Unit 1"
+                android:textAlignment="textStart"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/chy_unit2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/whiteshape"
+                android:drawableRight="@drawable/download"
+                android:paddingHorizontal="30dp"
+                android:text="Unit 2"
+                android:textAlignment="textStart"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/chy_unit3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/whiteshape"
+                android:drawableRight="@drawable/download"
+                android:paddingHorizontal="30dp"
+                android:text="Unit 3"
+                android:textAlignment="textStart"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/chy_unit4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/whiteshape"
+                android:drawableRight="@drawable/download"
+                android:paddingHorizontal="30dp"
+                android:text="Unit 4"
+                android:textAlignment="textStart"
+                android:textSize="14dp" />
+            <Button
+                android:id="@+id/chy_unit5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/whiteshape"
+                android:drawableRight="@drawable/download"
+                android:paddingHorizontal="30dp"
+                android:text="Unit 5"
+                android:textAlignment="textStart"
+                android:textSize="14dp"
+                android:layout_marginBottom="50dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
